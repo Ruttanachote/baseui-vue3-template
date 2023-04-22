@@ -1,0 +1,131 @@
+//
+// --------------------------------------------------
+
+// Bootstrap functions
+@import "bootstrap/scss/functions";
+
+// User variables (your own variable overrides)
+@import "custom/variables";
+
+// Custom Bootstrap variables overrides
+@import "baseui/variables-bootstrap";
+
+// Bootstrap variables
+@import "bootstrap/scss/variables";
+
+// Bootstrap maps
+@import "bootstrap/scss/maps";
+
+// Bootstrap mixins
+@import "bootstrap/scss/mixins";
+
+// Custom mixins and Bootstrap overrides
+@import "baseui/mixins";
+
+// Bootstrap Utilities
+@import "bootstrap/scss/utilities";
+
+// Custom utilities and Bootstrap overrides
+@import "baseui/utilities";
+
+// Layout & components
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/button-group";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/accordion";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/list-group";
+@import "bootstrap/scss/close";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/popover";
+@import "bootstrap/scss/carousel";
+@import "bootstrap/scss/spinners";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/placeholders";
+
+// Bootstrap Helpers
+@import "bootstrap/scss/helpers";
+
+// Bootstrap Utilities
+@import "bootstrap/scss/utilities/api";
+
+// Custom variables
+@import "baseui/variables";
+@import "baseui/variables-themes";
+
+// Extend Bootstrap styles and override the ones..
+// ..we can't alter with the provided variables
+@import "baseui/reboot";
+@import "baseui/type";
+@import "baseui/grid";
+@import "baseui/tables";
+@import "baseui/forms";
+@import "baseui/buttons";
+@import "baseui/transitions";
+@import "baseui/dropdown";
+@import "baseui/forms";
+@import "baseui/nav";
+@import "baseui/card";
+@import "baseui/breadcrumb";
+@import "baseui/pagination";
+@import "baseui/modal";
+@import "baseui/print";
+
+// Custom layout
+@import "baseui/layout";
+@import "baseui/header";
+@import "baseui/sidebar";
+@import "baseui/side-overlay";
+@import "baseui/layout-variations";
+@import "baseui/hero";
+@import "baseui/block";
+
+// Custom components
+@import "baseui/page-loader";
+@import "baseui/nav-main";
+@import "baseui/images";
+@import "baseui/lists";
+@import "baseui/item";
+@import "baseui/overlay";
+@import "baseui/timeline";
+@import "baseui/ribbon";
+
+// Helpers
+@import "baseui/helpers";
+
+// Core third party components
+@import "vendor/animate";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/regular";
+@import "@fortawesome/fontawesome-free/scss/solid";
+@import "@fortawesome/fontawesome-free/scss/brands";
+@import "vendor/simple-line-icons";
+@import "vendor/simplebar";
+@import "vendor/nprogress";
+
+// RTL Support
+@import "baseui/rtl-support";
+
+// Dark mode
+@import "baseui/dark-mode";
+
+// User styles (your own styles/overrides)
+@import "custom/main";
